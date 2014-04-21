@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<local:BaseControlPanel xmlns:fx="http://ns.adobe.com/mxml/2009"
+                        xmlns:local="*" xmlns:layouts="spark.layouts.*"
+                        xmlns:components="spark.components.*">
+
+    <!--
+        /**
+         * Внешний вид панели управления
+         * Created 18.04.2014
+         * Version 1.0
+         * Copyright (c) 2014
+         * @author ChessMax (www.chessmax.ru)
+         */
+    -->
+
+    <local:layout>
+        <layouts:HorizontalLayout paddingLeft="5" paddingTop="5"/>
+    </local:layout>
+
+    <!-- Кнопка запуска -->
+    <components:Button id="startButton" label="start" click="onStartButtonClicked(event)"/>
+
+    <!-- Кнопка остановки -->
+    <components:Button id="stopButton" label="stop"/>
+
+</local:BaseControlPanel>
